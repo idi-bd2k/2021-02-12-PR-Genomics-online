@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -189,17 +184,11 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 
-{% if page.carpentry == "swc" %}
+
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
+<p><a href="https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id=2018-08-17-puertorico-genomics">Pre-workshop Survey</a></p>
+<p><a href="https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id=2018-08-17-puertorico-genomics">Post-workshop Survey</a></p>
+
 
 <hr/>
 

@@ -117,7 +117,7 @@ eventbrite: "47376643817"        # optional: alphanumeric key for Eventbrite reg
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>), and have a working <a href="https://github.com/">github</a> account. They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -389,7 +389,7 @@ eventbrite: "47376643817"        # optional: alphanumeric key for Eventbrite reg
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
-  <p>
+  <p> <strong>OPTIONAL:</strong>
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
